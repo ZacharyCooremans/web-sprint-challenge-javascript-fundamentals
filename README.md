@@ -28,15 +28,18 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
-
+    map() will make a new array. forEach() will go through the whole array and touch each item.
 2. Explain the difference between a callback and a higher order function.
-
+    call back will be used to call a higher order function while the higher order function is the main function.
 3. What is closure?
-
+    the combination of a function bundled together (enclosed) with references to its surrounding state
 4. Describe the four rules of the 'this' keyword.
-
+    Global Context Rule - When this is not inside any declared object, then this points to the window.
+    Object or Implicit Rule - When we declare an object implicitly, then this inside that object points to that object, and not the window object.
+    Explicit Rule (call, bind and apply) - are used to call a function, this inside the function is the object that is passed in as the argument.
+    new Rule (new keyword in JavaScript) - the new rule will get the same this.(things) as the parent
 5. Why do we need super() in an extended class?
-
+    When used in a constructor, the super keyword appears alone and must be used before the this keyword is used. The super keyword can also be used to call functions on a parent object.
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
